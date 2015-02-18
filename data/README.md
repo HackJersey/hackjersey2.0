@@ -52,3 +52,14 @@ Healthcare.gov released it's 2015 premium price data for health care plans in th
 
 <a href="https://www.healthcare.gov" target="_blank">Healthcare.gov site</a>
 
+###Instagram API
+
+**File location:** <a href="http://instagram.com/developer/" target="_blank">Instagram API</a>
+
+**What is it?**
+
+Instagram's API.
+
+
+
+
