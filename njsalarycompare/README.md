@@ -1,5 +1,6 @@
 # NJ Public Paychecker
 ##A project from the Hack Jersey 2.0 hackathon
+#####forked from: [https://github.com/tommeagher/njsalarycompare] (https://github.com/tommeagher/njsalarycompare)
 
 New Jersey residents want to know how their tax money is being spent. Our project, [NJ Public Paychecker](www.thatguy.tv/clients/njsalarycompare/), will allow anyone to explore the salaries of local and state public employees and compare them to the median pay of residents in the immediate area.
 
