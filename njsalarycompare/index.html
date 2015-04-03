@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Public Paychecker</title>
+    <meta name="generator" content="Bootply" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <style type="text/css">
+      .chart rect {
+        fill: steelblue;
+      }
+
+      .chart text {
+        fill: white;
+        font: 10px sans-serif;
+        text-anchor: middle;
+      }
+    </style>
+  </head>
+  <body>
+<!-- begin template -->
+<div class="navbar navbar-custom navbar-fixed-top">
+ <div class="navbar-header"><a class="navbar-brand" href="#">NJ Public Paychecker</a>
+      <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="https://hackjersey2.hackpad.com/Public-Paychecker-wTi6GD1JgWi" target="_blank">About</a></li>
+        <li>&nbsp;</li>
+      </ul>
+      <form class="navbar-form">
+        <div class="form-group" style="display:inline;">
+          <div class="input-group">
+            <input type="text" class="form-control col-sm-12" placeholder="Type in a New Jersey Address" id="addressInput">
+            <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span> </span>
+          </div>
+        </div>
+      </form>
+    </div>
+</div>
+
+<div class="container" id="main">
+  <div class="row">
+    <div class="col-xs-12 col-sm-8" id="left">      
+      <!-- item list -->
+      <h3><p id="locText"> </p></h3>
+      <br>
+      <table class="table table-hover">
+        <tr><td><strong>Median County Resident</strong></td><td id="over" class="text-right"></td></tr>
+        <tr><td><strong>State Employees</strong></td><td id="state" class="text-right"></td></tr>
+        <tr><td><strong>Fire</strong></td><td id="fire" class="text-right"></td></tr>
+        <tr><td><strong>Police</strong></td><td id="police" class="text-right"></td></tr>
+        <tr><td><strong>Public Employees</strong></td><td id="public" class="text-right"></td></tr>
+        <tr><td><strong>Teachers</strong></td><td id="teach" class="text-right"></td></tr>
+      </table>
+
+      <!-- <svg class="chart"></svg> -->
+
+      <em>Source: NJ Division of Pensions and U.S. Bureau of Labor Statistics</em>
+    </div>
+    
+    <div class="col-xs-12 col-sm-4 col-md-6" id="map-canvas"><!--map-canvas will be postioned here--></div>
+  </div>
+</div>
+<!-- end template -->
+
+  <!-- script references -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js&output=embed"></script>
+   <!--  // <script src="js/d3.min.js"></script> -->
+    <script type="text/javascript" src="data/data.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+csv:
+	python median_salaries.py
+
+dl data:
+    curl -H 'Content-Type: application/x-www-form-urlencoded' -H 'Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' -H 'Cookie:__utmt_GSA_CP=1; __utma=161336366.1408875764.1427573395.1427573395.1427573395.1; __utmb=161336366.1.10.1427573395; __utmc=161336366; __utmz=161336366.1427573395.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); _gat=1; fsr.s={"v":1,"rid":"1427573395323_704161","ru":"https://www.google.com/","r":"www.google.com","st":"","to":3,"c":"http://www.bea.gov/faq/index.cfm","pv":1,"lc":{"d0":{"v":1,"s":false}},"cd":0,"sd":0,"f":1427573396406}; _ga=GA1.2.1408875764.1427573395' -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.104 Safari/537.36" --data 'mlist=5&CSV=CSV' http://www.bea.gov/regional/docs/msalist.cfm -o msacounties.csv
+    curl -H 'Content-Type: application/x-www-form-urlencoded' -H 'Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' -H 'Cookie:__utmt_GSA_CP=1; __utma=161336366.1408875764.1427573395.1427573395.1427573395.1; __utmb=161336366.1.10.1427573395; __utmc=161336366; __utmz=161336366.1427573395.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); _gat=1; fsr.s={"v":1,"rid":"1427573395323_704161","ru":"https://www.google.com/","r":"www.google.com","st":"","to":3,"c":"http://www.bea.gov/faq/index.cfm","pv":1,"lc":{"d0":{"v":1,"s":false}},"cd":0,"sd":0,"f":1427573396406}; _ga=GA1.2.1408875764.1427573395' -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.104 Safari/537.36" --data 'mlist=8&CSV=CSV' http://www.bea.gov/regional/docs/msalist.cfm -o msdcounties.csv
+    curl 'http://www.bls.gov/oes/special.requests/oesm14ma.zip' -o oesm14ma.zip
+    mkdir -p oesdata14
+    unzip oesm14ma.zip -d oesdata14
