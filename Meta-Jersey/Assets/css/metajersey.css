@@ -1,0 +1,333 @@
+/*!
+ * Meta Jersey by Team Deep Purple
+ */
+ 
+html,
+body
+{
+	 height: 100%;
+}
+ 
+.img-centered
+{
+	margin: 0 auto;
+} 
+
+.content-row
+{
+	margin-top: 30px;
+}
+
+section
+{
+	padding: 10px 0px 20px 0px;
+}
+
+section.bg
+{
+	background-color: white;
+}
+
+
+@media (max-width: 767px)
+{
+	section
+	{
+		padding: 75px 0;
+	}
+}
+
+body
+{
+	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+a
+{
+	color: #bb0a00;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  font-size: 30px;
+  line-height: 1.5;
+  padding: 40px 0px 20px 0px;
+}
+p.lead {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+@media (min-width: 481px) {
+  h1 {
+    font-size: 52px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+}
+
+hr {
+   margin: 50px 0;   
+}
+
+hr.faded {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.navbar-fixed-top {
+  margin-bottom: 0;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #bb0a00;
+  background-color: white;
+  border-radius: 0;
+}
+.navbar-default {
+  background-color: red;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+.navbar-inverse {
+  background-color: #222222;
+}
+.navbar-default,
+.navbar-inverse {
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.navbar-default .navbar-brand,
+.navbar-inverse .navbar-brand {
+  padding: 15px 0px 0px 0px;
+  color: white;
+  opacity: 1;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-inverse .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-inverse .navbar-brand:focus {
+  opacity: 1;
+}
+.navbar-default .navbar-nav li a,
+.navbar-inverse .navbar-nav li a {
+  color: white;
+}
+.navbar-default .navbar-nav li a:hover,
+.navbar-inverse .navbar-nav li a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+@media (min-width: 768px) {
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:hover,
+  .navbar-default .navbar-nav > .active > a:focus,
+  .navbar-inverse .navbar-nav > .active > a,
+  .navbar-inverse .navbar-nav > .active > a:hover,
+  .navbar-inverse .navbar-nav > .active > a:focus {
+    border-radius: 5px;
+  }
+  .navbar-fixed-top.navbar-expanded {
+    padding: 30px 0;
+  }
+  .navbar-fixed-top {
+    padding: 15px 0;
+    -webkit-transition: padding 0.5s;
+    -moz-transition: padding 0.5s;
+    transition: padding 0.5s;
+  }
+  .navbar-fixed-top .navbar-brand:hover {
+    opacity: 0.5;
+  }
+  .navbar-default.navbar-expanded,
+  .navbar-inverse.navbar-expanded {
+    background: #222222;
+    border: none;
+  }
+}
+.navbar a:focus {
+  outline: none;
+}
+.navbar .navbar-nav li a:focus {
+  outline: none;
+}
+
+header {
+  position: relative;
+  display: block;
+  height: auto;
+  width: auto;
+  background: #bb0a00;
+  padding: 100px 0;
+}
+
+header .intro {
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+header .title {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 55px;
+  line-height: 55px;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-top: 15px;
+}
+
+header .tagline {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 300;
+  padding: 0px 0px 20px 0px;
+}
+
+header img {
+  max-width: 150px;
+  max-height: 150px;
+  padding: 40px 0px 0px 0px
+}
+
+header .scroll-down {
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+  text-align: center;
+}
+header .scroll-down .btn {
+  height: 50px;
+  width: 50px;
+  border: 2px solid white;
+  border-radius: 100%;
+  line-height: 50px;
+  padding: 0;
+  letter-spacing: normal;
+  color: white;
+  font-size: 30px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+header .scroll-down .btn:hover {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.5);
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  header {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    background-attachment: scroll;
+  }
+  header .intro {
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  header .title {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  header .tagline {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  header img {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}
+@media (min-width: 1025px) {
+  header {
+    background-attachment: fixed;
+  }
+}
+
+footer {
+	color: #fff;
+    padding: 25px 0;
+    background-color: #222222;
+}
+
+.scroll-top {
+    z-index: 1049;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    width: 50px;
+    height: 50px;
+}
+
+.scroll-top .btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 28px;
+    color: #bb0a00;
+    background: white;
+}
+
+.scroll-top .btn:focus {
+    outline: 0;
+}

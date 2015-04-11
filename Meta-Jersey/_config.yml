@@ -1,0 +1,14 @@
+# Team Deep Purple - Project Meta Jersey
+
+# Site Settings
+title: Meta Jersey
+name: Team Deep Purple
+email: notanemail@domain.com
+description: Mapping the Metamorphical Changes within New Jersey
+baseurl: /Meta-Jersey
+
+# Build Settings
+markdown: redcarpet
+highlighter: pygments
+permalink: pretty
+

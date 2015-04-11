@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>New Jersey Office of Information Technology (NJOIT), Office of Geographic Information Systems (OGIS)</origin>
+				<pubdate>20100309</pubdate>
+				<title>State of New Jersey, New Jersey State Plane NAD83</title>
+				<geoform>vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Trenton, NJ</pubplace>
+					<publish>New Jersey Office of Information Technology (NJOIT), Office of Geographic Information Systems (OGIS)</publish>
+				</pubinfo>
+				<onlink>http://njgin.state.nj.us/oit/gis/download/bounds_nj_shp.zip</onlink>
+				<ftname Sync="TRUE">nj_state</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>This data set is a spatial representation of the jurisdiction of the State of New Jersey developed by the New Jersey Office of Information Technology (OIT), Office of Geographic Information Systems (OGIS).  It is not a survey document and should not be used as such.  The polygon delineated in this data set does not represent the legal state boundary.
+
+This data set improves upon previous versions of the state boundary through the integration of coincident features from several high quality source data sets, as a component of the OGIS statewide Parcels Normalization Project concluded in March 2010.</abstract>
+			<purpose>To provide basic jurisdictional information.  This data set was developed to produce the most accurate delineation of the state boundary achievable from existing data sources.</purpose>
+			<supplinf>Spatially referenced data were derived from the following GIS layers to build municipal boundary lines.  They include:
+
+Delaware Geological Survey - New Jersey/Delaware boundary data through the Delaware River
+New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems - New Jersey/New York boundary data for Ellis Island
+New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems - land use/landcover data delineation for the New Jersey/New York boundary for Liberty Island
+New Jersey Department of Environmental Protection, New Jersey Geological Survey - New Jersey/New York boundary data for the northern border of New Jersey, and New Jersey/New York boundary data through the Hudson River, Kill Van Kull and Raritan Bay, and New Jersey/Delaware boundary data through Delaware Bay
+New Jersey Office of Information Technology, Office of Geographic Information Systems - New Jersey/Pennsylvania boundary data, and Atlantic Coast "Three Mile Limit"</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20100309</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>
+-75.593271</westbc>
+				<eastbc>
+-73.890308</eastbc>
+				<northbc>
+41.357794</northbc>
+				<southbc>
+38.849424</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">191987.230047</leftbc><rightbc Sync="TRUE">659494.900017</rightbc><bottombc Sync="TRUE">7591.329860</bottombc><topbc Sync="TRUE">919549.443276</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>NJGIN</themekt>
+				<themekey>njfw_boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>boundary</themekey>
+				<themekey>state</themekey>
+				<themekey>three mile limit</themekey>
+				<themekey>3 mile limit</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>New Jersey</placekey>
+				<placekey>NJ</placekey>
+				<placekey>New York</placekey>
+				<placekey>NY</placekey>
+				<placekey>Pennsylvania</placekey>
+				<placekey>PA</placekey>
+				<placekey>Delaware</placekey>
+				<placekey>DE</placekey>
+				<placekey>Hudson River</placekey>
+				<placekey>Kill Van Kull</placekey>
+				<placekey>Raritan Bay</placekey>
+				<placekey>Ellis Island</placekey>
+				<placekey>Liberty Island</placekey>
+				<placekey>Shooters Island</placekey>
+				<placekey>Atlantic Ocean</placekey>
+				<placekey>Delaware Bay</placekey>
+				<placekey>Delaware River</placekey>
+				<placekey>Mid-Atlantic</placekey>
+				<placekey>USA</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2010</tempkey>
+			</temporal>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>This data set is not a survey document and should not be used as such.  The polygon delineated in this data set does not represent the legal state boundary.
+
+Acknowledgement of the data set provider, the New Jersey Office of Information Technology, Office of Geographic Information Systems (NJOIT - OGIS), would be appreciated for maps, data or other products derived from this data set.
+
+For all data contained herein, the New Jersey Office of Information Technology, Office of Geographic Information Systems makes no representations of any kind, including, but not limited to, the warranties of merchantability or fitness for a particular use, nor are any such warranties to be implied with respect to the digital data layers furnished hereunder.  The New Jersey Office of Information Technology, Office of Geographic Information Systems assumes no responsibility to maintain them in any manner or form.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>NJ Office of Information Technology (NJOIT), Office of Geographic Information Systems (OGIS)</cntorg>
+					<cntper>Douglas M. Schleifer</cntper>
+				</cntorgp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>PO Box 212</address>
+					<city>Trenton</city>
+					<state>NJ</state>
+					<postal>08625-0212</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(609) 984-7544</cntvoice>
+				<cntfax>(609) 633-0400</cntfax>
+				<cntemail>doug.schleifer@oit.state.nj.us</cntemail>
+				<hours>M-F 9-4</hours>
+			</cntinfo>
+		</ptcontac>
+		<datacred>Delaware Geological Survey - New Jersey/Delaware boundary data through the Delaware River
+New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems - New Jersey/New York boundary data for Ellis Island
+New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems - land use/landcover data delineation for the New Jersey/New York boundary for Liberty Island
+New Jersey Department of Environmental Protection, New Jersey Geological Survey - New Jersey/New York boundary data for the northern border of New Jersey, and New Jersey/New York boundary data through the Hudson River, Kill Van Kull and Raritan Bay, and New Jersey/Delaware boundary data through Delaware Bay
+New Jersey Office of Information Technology, Office of Geographic Information Systems - New Jersey/Pennsylvania boundary data, and Atlantic Coast "Three Mile Limit"</datacred>
+		<secinfo>
+			<secsys>NJGIN</secsys>
+			<secclass>public</secclass>
+			<sechandl>no special handling required</sechandl>
+		</secinfo>
+		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.4.1420</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>The ACRES and SQ_MILES fields were recalculated based on SHAPE_AREA.  No formal accuracy testing was performed to qualify or validate attribute data.</attraccr>
+		</attracc>
+		<logic>This data set was built from linework from various sources (described in the Process Step section) using the default cluster tolerance of 0.003 US survey feet.</logic>
+		<complete>Complete</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Horizontal positional accuracy used to generate the state boundary varies by source data.  No formal horizontal positional accuracy testing was performed to qualify or validate these data.  Data were visually inspected.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>New Jersey Department of Environmental Protection (NJDEP), Office of Information Resources Management (OIRM), Bureau of Geographic Information Systems (BGIS)</origin>
+						<pubdate>20070206</pubdate>
+						<title>2002 Landuse/Landcover by Watershed Management Area (WMA)</title>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<pubplace>Trenton, NJ</pubplace>
+							<publish>New Jersey Department of Environmental Protection (NJDEP), Office of Information Resources Management (OIRM), Bureau of Geographic Information Systems (BGIS)</publish>
+						</pubinfo>
+						<onlink>http://www.nj.gov/dep/gis/lulc02shp.html</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>12000</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2002</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>LULC</srccitea>
+				<srccontr>New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems land use/landcover data delineation for the New Jersey/New York boundary for Liberty Island</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>New Jersey Department of Environmental Protection, New Jersey Geological Survey</origin>
+						<pubdate>2007</pubdate>
+						<title>New Jersey/New York and New Jersey/Delaware boundary data</title>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<pubplace>West Trenton, NJ</pubplace>
+							<publish>New Jersey Department of Environmental Protection, New Jersey Geological Survey</publish>
+						</pubinfo>
+						<onlink>none</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>unknown</srcscale>
+				<typesrc>electronic mail system</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2007</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>NJGS</srccitea>
+				<srccontr>New Jersey Department of Environmental Protection, New Jersey Geological Survey - New Jersey/New York boundary data for the northern border of New Jersey, and New Jersey/New York boundary data through the Hudson River, Kill Van Kull and Raritan Bay, and New Jersey/Delaware boundary data through Delaware Bay</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Delaware Geological Survey</origin>
+						<pubdate>200401</pubdate>
+						<title>2002 Delaware State Outline (line)</title>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<pubplace>Newark, DE</pubplace>
+							<publish>Delaware Geological Survey</publish>
+						</pubinfo>
+						<onlink>http://www.state.de.us/planning/info/outline.htm</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>unknown</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1935</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>DGS</srccitea>
+				<srccontr>Delaware Geological Survey New Jersey/Delaware boundary data through the Delaware River delineated from descriptions in a 1934-1935 Court Decree of the US Supreme Court</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>NJ Department of Environmental Protection (NJDEP), Office of Information Resources Management (OIRM), Bureau of Geographic Information Systems (BGIS)</origin>
+						<pubdate>1999</pubdate>
+						<title>Ellis Island: New Jersey/New York Jurisdictional Boundary Line</title>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<pubplace>Trenton, NJ</pubplace>
+							<publish>NJ Department of Environmental Protection (NJDEP), Office of Information Resources Management (OIRM), Bureau of Geographic Information Systems (BGIS)</publish>
+						</pubinfo>
+						<onlink>none</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>unknown</srcscale>
+				<typesrc>electronic mail system</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1857</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>Ellis Island</srccitea>
+				<srccontr>New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems data representing the New Jersey/New York boundary for Ellis Island delineated from an 1857 US Coast Survey Map</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>United States Board on Geographic Names, United State Geological Survey</origin>
+						<pubdate>200804</pubdate>
+						<title>Domestic Names - State and Topical Gazetteer Download Files</title>
+						<geoform>tabular digital data</geoform>
+						<pubinfo>
+							<pubplace>Reston, VA</pubplace>
+							<publish>United States Board on Geographic Names, United State Geological Survey</publish>
+						</pubinfo>
+						<onlink>http://geonames.usgs.gov/domestic/download_data.htm</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>not applicable</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>200804</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>GNIS</srccitea>
+				<srccontr>United States Board on Geographic Names, United State Geological Survey GNIS civil codes and names</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>A three nautical miles buffer from the Atlantic shoreline was created from the NJOIT-OGIS Municipalities of New Jersey (nj_munis) data set using the BUFFER command.  This line forms the state boundary along the Atlantic coast.</procdesc>
+				<procdate>2007</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Civil Solutions</cntorg>
+							<cntper>Steve Eckhardt</cntper>
+						</cntorgp>
+						<cntpos>GIS Client Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>800 S White Horse Pike, PO Box 579</address>
+							<city>Hammonton</city>
+							<state>NJ</state>
+							<postal>08037-2019</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(800) 924-0482</cntvoice>
+						<cntfax>(609) 704-8011</cntfax>
+						<cntemail>seckh@arh-us.com</cntemail>
+						<hours>Monday-Friday  8:00 AM-5:00 PM</hours>
+					</cntinfo>
+				</proccont>
+				<procsv>ArcGIS ArcInfo 9.2</procsv></procstep>
+			<procstep>
+				<procdesc>New Jersey Department of Environmental Protection, New Jersey Geological Survey New Jersey/New York boundary data were used as primary data sources for the northern border of New Jersey, and New Jersey/New York boundary data through the Hudson River, Kill Van Kull and Raritan Bay, and New Jersey/Delaware boundary data through Delaware Bay.  Survey points were used to delineate the New Jersey/New York boundary for the northern border of the state.  Turning points through the Hudson River, Kill Van Kull and Raritan Bay were used to delineate the New Jersey/New York boundary, and the New Jersey/Delaware boundary through Delaware Bay.</procdesc>
+				<procdate>2007</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Civil Solutions</cntorg>
+							<cntper>Steve Eckhardt</cntper>
+						</cntorgp>
+						<cntpos>GIS Client Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>800 S White Horse Pike, PO Box 579</address>
+							<city>Hammonton</city>
+							<state>NJ</state>
+							<postal>08037-2019</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(800) 924-0482</cntvoice>
+						<cntfax>(609) 704-8011</cntfax>
+						<cntemail>seckh@arh-us.com</cntemail>
+						<hours>Monday-Friday  8:00 AM-5:00 PM</hours>
+					</cntinfo>
+				</proccont>
+				<procsv>ArcGIS ArcInfo 9.2</procsv></procstep>
+			<procstep>
+				<procdesc>Delaware Geological Survey boundary data for the New Jersey/Delaware border through the Delaware River were used as a primary data source.  Boundary, boundary monument, and boundary reference monument positions were calculated at the 1934 mean low water line along the New Jersey shoreline from descriptions in a 1934/1935 United States Supreme Court Decree.</procdesc>
+				<procdate>2007</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Civil Solutions</cntorg>
+							<cntper>Steve Eckhardt</cntper>
+						</cntorgp>
+						<cntpos>GIS Client Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>800 S White Horse Pike, PO Box 579</address>
+							<city>Hammonton</city>
+							<state>NJ</state>
+							<postal>08037-2019</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(800) 924-0482</cntvoice>
+						<cntfax>(609) 704-8011</cntfax>
+						<cntemail>seckh@arh-us.com</cntemail>
+						<hours>Monday-Friday  8:00 AM-5:00 PM</hours>
+					</cntinfo>
+				</proccont>
+				<procsv>ArcGIS ArcInfo 9.2</procsv></procstep>
+			<procstep>
+				<procdesc>A delineation of the centerline of the Delaware River representing the New Jersey/Pennsylvania boundary was developed for the project.  An inventory of Delaware River islands with state jurisdiction was developed from information in "The Story Of New Jersey's Civil Boundaries 1606 - 1968" by John F. Snyder, Bureau of Geology and Topography, Trenton, New Jersey, 1969.  Using this information, a delineation was generated to represent the centerline of the Delaware River from the New Jersey/New York border to the 12 mile circle at the New Jersey/Delaware border.  
+				
+The delineation of the centerline of the Delaware River was generated by manually digitizing the river's visible shorelines, interpreted from New Jersey Office of Information Technology, Office of Geographic Information Systems 2002 orthophotography (+/-4 feet).  A centerline was generated from the shorelines utilizing the DUAL COLLAPSE command.  Using the automated centerline as a guide, the final delineation was manually digitized to provide a smoother, more visually suitable centerline.</procdesc>
+				<procdate>2008</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Civil Solutions</cntorg>
+							<cntper>Steve Eckhardt</cntper>
+						</cntorgp>
+						<cntpos>GIS Client Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>800 S White Horse Pike, PO Box 579</address>
+							<city>Hammonton</city>
+							<state>NJ</state>
+							<postal>08037-2019</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(800) 924-0482</cntvoice>
+						<cntfax>(609) 704-8011</cntfax>
+						<cntemail>seckh@arh-us.com</cntemail>
+						<hours>Monday-Friday  8:00 AM-5:00 PM</hours>
+					</cntinfo>
+				</proccont>
+				<procsv>ArcGIS ArcInfo 9.2</procsv></procstep>
+			<procstep>
+				<procdesc>The polygon was built from the source data in ArcCatalog using the POLYGON FEATURE CLASS FROM LINES command with the default cluster tolerance of 0.003 US survey feet.</procdesc>
+				<procdate>200804</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Civil Solutions</cntorg>
+							<cntper>Stephen Eckhardt</cntper>
+						</cntorgp>
+						<cntpos>GIS Client Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>800 S White Horse Pike, PO Box 579</address>
+							<city>Hammonton</city>
+							<state>New Jersey</state>
+							<postal>08037-2019</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>800-924-0482</cntvoice>
+						<cntfax>609-704-8011</cntfax>
+						<cntemail>seckh@arh-us.com</cntemail>
+						<hours>Monday-Friday  8:00 AM-5:00 PM</hours>
+					</cntinfo>
+				</proccont>
+				<procsv>ArcGIS ArcInfo 9.2</procsv></procstep>
+			<procstep>
+				<procdesc>New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems data representing the New Jersey/New York boundary for Ellis Island were used as a primary data source.  These data were delineated from an 1857 United States Coast Survey Map.</procdesc>
+				<procdate>200805</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Civil Solutions</cntorg>
+							<cntper>Steve Eckhardt</cntper>
+						</cntorgp>
+						<cntpos>GIS Client Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>800 S White Horse Pike, PO Box 579</address>
+							<city>Hammonton</city>
+							<state>NJ</state>
+							<postal>08037-2019</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(800) 924-0482</cntvoice>
+						<cntfax>(609) 704-8011</cntfax>
+						<cntemail>seckh@arh-us.com</cntemail>
+						<hours>Monday-Friday  8:00 AM-5:00 PM</hours>
+					</cntinfo>
+				</proccont>
+				<procsv>ArcGIS ArcInfo 9.2</procsv></procstep>
+			<procstep>
+				<procdesc>New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems land use/landcover data were used as a primary data source to develop the New Jersey/New York boundary for Liberty Island.  These data were derived from New Jersey Office of Information Technology, Office of Geographic Information Systems 2002 orthophotography (+/-4 feet).  The delineation from the land use/landcover data for the shoreline of Liberty Island was used to represent the state boundary coincident with that shoreline.  Liberty Island is part of New York, but the surrounding waters are in New Jersey.</procdesc>
+				<procdate>200805</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Civil Solutions</cntorg>
+							<cntper>Stephen Eckhardt</cntper>
+						</cntorgp>
+						<cntpos>GIS Client Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>800 S White Horse Pike, PO Box 579</address>
+							<city>Hammonton</city>
+							<state>NJ</state>
+							<postal>08037-2019</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(800) 924-0482</cntvoice>
+						<cntfax>(609) 704-8011</cntfax>
+						<cntemail>seckh@arh-us.com</cntemail>
+						<hours>Monday-Friday  8:00 AM-5:00 PM</hours>
+					</cntinfo>
+				</proccont>
+				<procsv>ArcGIS ArcInfo 9.2</procsv></procstep>
+			<procstep>
+				<procdesc>The Liberty Island data set and the area selected from the Ellis Island data set belonging to New York were merged into the state polygon using the CONSTRUCT FEATURES tool.  Those areas were then deleted from the state polygon.</procdesc>
+				<procdate>200805</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Civil Solutions</cntorg>
+							<cntper>Steve Eckhardt</cntper>
+						</cntorgp>
+						<cntpos>GIS Client Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>800 S White Horse Pike, PO Box 579</address>
+							<city>Hammonton</city>
+							<state>NJ</state>
+							<postal>08037-2019</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(800) 924-0482</cntvoice>
+						<cntfax>(609) 704-8011</cntfax>
+						<cntemail>seckh@arh-us.com</cntemail>
+						<hours>Monday-Friday  8:00 AM-5:00 PM</hours>
+					</cntinfo>
+				</proccont>
+				<procsv>ArcGIS ArcInfo 9.2</procsv></procstep>
+			<procstep>
+				<procdesc>As a component of the New Jersey Office of Information Technology, Office of GIS (OGIS) Parcels Normalization Project in 2008-2010, parcels boundaries were modified to match municipal, county and state boundaries data developed by OGIS in 2008 where those boundaries were coincident.  During this process, modifications were made to the municipal, county and state boundaries data sets to improve spatial and temporal accuracy where research was necessary to resolve boundary conflicts, and in areas where higher quality data became available subsequent to the 2008 boundaries data release.</procdesc>
+				<procdate>201002</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Civil Solutions</cntorg>
+							<cntper>Steve Eckhardt</cntper>
+						</cntorgp>
+						<cntpos>GIS Client Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>800 S White Horse Pike, PO Box 579</address>
+							<city>Hammonton</city>
+							<state>NJ</state>
+							<postal>08037-2019</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(800) 924-0482</cntvoice>
+						<cntfax>(609) 704-8011</cntfax>
+						<cntemail>seckh@arh-us.com</cntemail>
+						<hours>8-5</hours>
+					</cntinfo>
+				</proccont>
+				<procsv>ArcGIS ArcInfo 9.3</procsv></procstep>
+			<procstep>
+				<procdesc>Attributes were added to the attribute table.  The ACRES and SQ_MILES fields were recalculated based on SHAPE_AREA.  Attributes for Geographical Naming Information System (GNIS) codes and names were reviewed in collaboration with GNIS-US Geological Survey and US Census Bureau representatives.  No formal accuracy testing was performed to qualify or validate attribute data.</procdesc>
+				<procdate>20100309</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>NJ Office of Information Technology (NJOIT), Office of Geographic Information Systems (OGIS)</cntorg>
+							<cntper>Douglas M. Schleifer</cntper>
+						</cntorgp>
+						<cntpos>GIS Specialist</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>PO Box 212</address>
+							<city>Trenton</city>
+							<state>NJ</state>
+							<postal>08625-0212</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(609) 984-7544</cntvoice>
+						<cntfax>(609) 633-0400</cntfax>
+						<cntemail>doug.schleifer@oit.state.nj.us</cntemail>
+						<hours>M-F 9-4</hours>
+					</cntinfo>
+				</proccont>
+				<procsv>ArcGIS ArcInfo 9.3</procsv></procstep>
+			<procstep>
+				<procdesc>Converted to an ArcView Shapefile from an ArcGIS9.3 Personal GeoDatabase Feature Class using ArcToolbox (Conversion Tools - To Shapefile) Feature Class To Shapefile.</procdesc>
+				<procdate>20100309</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>NJ Office of Information Technology (NJOIT), Office of Geographic Information Systems (OGIS)</cntorg>
+							<cntper>Douglas M. Schleifer</cntper>
+						</cntorgp>
+						<cntpos>GIS Specialist</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>PO Box 212</address>
+							<city>Trenton</city>
+							<state>NJ</state>
+							<postal>08625-0212</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(609) 984-7544</cntvoice>
+						<cntfax>(609) 633-0400</cntfax>
+						<cntemail>doug.schleifer@oit.state.nj.us</cntemail>
+						<hours>M-F 9-4</hours>
+					</cntinfo>
+				</proccont>
+				<procsv>ArcGIS ArcInfo 9.3</procsv></procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="nj_state">
+				<sdtstype>G-polygon</sdtstype>
+				<ptvctcnt>1</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="nj_state"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">1</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.000328</absres>
+						<ordres>0.000328</ordres>
+					</coordrep>
+					<plandu>survey feet</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Transverse Mercator</mapprojn><transmer><sfctrmer Sync="TRUE">0.999900</sfctrmer><longcm Sync="TRUE">-74.500000</longcm><latprjo Sync="TRUE">38.833333</latprjo><feast Sync="TRUE">492125.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></transmer></mapproj></planar>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_New_Jersey_FIPS_2900_Feet</projcsn></cordsysn></horizsys>
+		<vertdef>
+			<altsys>
+				<altres>1.000000</altres>
+				<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="nj_state">
+			<enttyp>
+				<enttypl>
+OGIS.nj_state</enttypl>
+				<enttypd>New Jersey State boundary</enttypd>
+				<enttypds>New Jersey Office of Information Technology, Office of Geographic Information Systems</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">1</enttypc></enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>SHAPE</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>NAME</attrlabl>
+				<attalias Sync="TRUE">NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth></attr>
+			<attr>
+				<attrlabl>GNIS_NAME</attrlabl>
+				<attalias Sync="TRUE">GNIS_NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth></attr>
+			<attr>
+				<attrlabl>GNIS</attrlabl>
+				<attalias Sync="TRUE">GNIS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth></attr>
+			<attr>
+				<attrlabl>ACRES</attrlabl>
+				<attalias Sync="TRUE">ACRES</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>SQ_MILES</attrlabl>
+				<attalias Sync="TRUE">SQ_MILES</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>Shape_Leng</attrlabl>
+				<attalias Sync="TRUE">Shape_Leng</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>Shape_Area</attrlabl>
+				<attrdef>Area of feature in internal units squared.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape_Area</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>NJ Office of Information Technology (NJOIT), Office of Geographic Information Systems (OGIS)</cntorg>
+					<cntper>Douglas M. Schleifer</cntper>
+				</cntorgp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>PO Box 212</address>
+					<city>Trenton</city>
+					<state>NJ</state>
+					<postal>08625-0212</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(609) 984-7544</cntvoice>
+				<cntfax>(609) 633-0400</cntfax>
+				<cntemail>doug.schleifer@oit.state.nj.us</cntemail>
+				<hours>M-F 9-4</hours>
+			</cntinfo>
+		</distrib>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>Distribution Liability: The State of New Jersey provides this product "as is".  The State makes no guarantee or warranty concerning the accuracy of information contained in the data.  Also, the State makes no warranty, either expressed or implied, regarding the condition of the product or its fitness for any particular purpose.  The burden for determining fitness for use lies entirely with the user.  Although these data files have been processed successfully on computers at the State, no warranty is made by the State regarding the use of the data on any other system, nor does the fact of distribution constitute or imply such a warranty.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>Shapefile</formname>
+					<formvern>ArcGIS 9.3</formvern>
+					<transize>0.177</transize>
+					<dssize Sync="TRUE">0.177</dssize></digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://njgin.state.nj.us/oit/gis/download/bounds_nj_shp.zip</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>none</fees>
+		</stdorder>
+		<techpreq>An ESRI desktop mapping client is required for use, such as ArcMap.</techpreq>
+		<availabl>
+			<timeinfo>
+				<sngdate>
+					<caldate>20100309</caldate>
+				</sngdate>
+			</timeinfo>
+		</availabl>
+	</distinfo>
+	<metainfo>
+		<metd>20100309</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>NJ Office of Information Technology (NJOIT), Office of Geographic Information Systems (OGIS)</cntorg>
+					<cntper>Douglas M. Schleifer</cntper>
+				</cntorgp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>PO Box 212</address>
+					<city>Trenton</city>
+					<state>NJ</state>
+					<postal>08625-0212</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(609) 984-7544</cntvoice>
+				<cntfax>(609) 633-0400</cntfax>
+				<cntemail>doug.schleifer@oit.state.nj.us</cntemail>
+				<hours>M-F 9-4</hours>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metac>none</metac>
+		<metuc>none</metuc>
+		<metsi>
+			<metscs>NJGIN</metscs>
+			<metsc>Public</metsc>
+			<metshd>no special handling required</metshd>
+		</metsi>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><MetaID>{32FE9042-731F-4E19-A5E0-6B084D9981E1}</MetaID><CreaDate>20100312</CreaDate><CreaTime>11044300</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20110302</SyncDate><SyncTime>10331100</SyncTime><ModDate>20130102</ModDate><ModTime>15033600</ModTime></Esri><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\alloway.oit.state.nj.us\staff\Data\boundaries\shapefiles\nj_state.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.177</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">nj_state</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">191987.230047</westBL><eastBL Sync="TRUE">659494.900017</eastBL><northBL Sync="TRUE">919549.443276</northBL><southBL Sync="TRUE">7591.32986</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-75.593271</westBL><eastBL Sync="TRUE">-73.890308</eastBL><northBL Sync="TRUE">41.357794</northBL><southBL Sync="TRUE">38.849424</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_StatePlane_New_Jersey_FIPS_2900_Feet</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="nj_state"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">1</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20100315</mdDateSt></metadata>
